@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.section{
+    display: flex; 
+}
+
+.section h2{
+    padding: 20px;
+    margin: 0;
+    color: #007bff;
+}
+
+.section img{
+    height: 280px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #f1f1f1;
+}
